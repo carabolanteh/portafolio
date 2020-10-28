@@ -1,0 +1,21 @@
+:root{
+    --gray: #2e2c2a;
+    --red: #bf2600;
+    --yellow: #cdae00;
+    --black: #080b11;
+    --blue: #24449b;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    font-size: 20px;
+    color: var(--black);
+    text-shadow: var(--gray) 1px 0 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerList{
+   margin: 20px 0px 0px 20px;
+}

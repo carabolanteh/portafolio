@@ -1,0 +1,27 @@
+:root{
+    --gray: #2e2c2a;
+    --yellow: #cdae00;
+    --black: #080b11;
+}
+.quote{
+    background-color: var(--yellow);
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    text-align: center;
+    color: var(--black);
+}
+.quoteIcon{
+    margin: 100px 0px 50px;
+    font-size: 200px;
+}
+.quoteTxt{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.quoteName{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10%;
+    color: var(--gray);
+}

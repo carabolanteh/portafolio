@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --gray: #2e2c2a;
+    --red: #bf2600;
+    --yellow: #cdae00;
+    --black: #080b11;
+    --blue: #24449b;
+}
+body{
+    background-color: var(--black);
+    height: 100vh;
+    font-family: 'Patua One', cursive;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: var(--red);
+    box-shadow: 0px 0px 65px 0px rgba(107, 14, 0, 0.555);
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 8rem;
+    position: fixed;
+    top: 0;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    float: left;
+}
+header nav li{
+    margin: 0 15px;
+}
+.backColor{
+    background-color: var(--blue);
+    color: var(--black);
+    text-shadow: none; 
+    border-radius: 15px;
+    padding: 5px;
+}
+a:hover{
+    color: var(--black);
+}
+.backColor:hover{
+    background-color: var(--yellow);
+}
+li a{
+    color: var(--yellow);
+    text-shadow: var(--black) 1px 0 10px; 
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 25px;
+}
+@media (max-width: 900px){
+    header{
+        display: none;
+    }
+}

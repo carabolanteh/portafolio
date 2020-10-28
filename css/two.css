@@ -1,0 +1,94 @@
+:root{
+    --gray: #2e2c2a;
+    --red: #bf2600;
+    --yellow: #cdae00;
+    --black: #080b11;
+    --blue: #24449b;
+    --blueElectric: rgb(2, 2, 131);
+    --sky: rgb(135, 206, 235);
+    --orange: rgb(255, 69, 0);
+}
+.two{
+    width: 100%;
+    background-color: var(--gray);
+    border-radius: 15px;
+    height: auto;
+    color: var(--yellow);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+.twoBox{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.twoTxt{
+    text-align: center;
+    width: 50vw;
+    height: auto;
+}
+.twoTitle{
+    margin: 100px 0px 50px;
+    color: var(--red);
+    text-shadow: #080b11 1px 0 10px; 
+    font-weight: 800;
+    font-size: 50px;
+}
+.twoBoxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.twoDiv{
+    width: 30vw;
+    height: auto;
+    background-color: var(--blue);
+    color: var(--black);
+    font-weight: 800;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.twoDiv:hover{
+    box-shadow: var(--black) 1px 0 10px; 
+    color: var(--gray);
+    cursor: pointer;
+}
+.iconify{
+    margin-top: 35px;
+    font-size: 90px;
+    background-color: transparent;
+}
+.twoName{
+    font-size: x-large;
+    font-weight: 900;
+    padding: 30px 30px;
+}
+.orange{
+    color: var(--orange);
+}
+.blue{
+    color: var(--blueElectric);
+}
+.sky{
+    color: var(--sky);
+}
+@media (max-width: 900px){
+    .twoDiv{
+        width: 40vw;
+    }
+    .twoTxt{
+        width: 80vw;
+    }
+    .know-box{
+        padding: 10px;
+    }
+}
