@@ -9,6 +9,7 @@
     --yellow: #cdae00;
     --black: #080b11;
     --blue: #24449b;
+    --redDark:  rgba(107, 14, 0, 0.555);
 }
 body{
     background-color: var(--black);
@@ -19,7 +20,7 @@ header{
     width: 100%;
     height: auto;
     background-color: var(--red);
-    box-shadow: 0px 0px 65px 0px rgba(107, 14, 0, 0.555);
+    box-shadow: 0px 0px 65px 0px var(--redDark);
     display: flex;
     justify-content: flex-end;
     padding: 2rem 8rem;
@@ -49,7 +50,7 @@ a:hover{
 }
 li a{
     color: var(--yellow);
-    text-shadow: var(--black) 1px 0 10px; 
+    text-shadow: var(--gray) 1px 0 10px; 
     text-decoration: none;
     cursor: pointer;
     font-weight: 800;

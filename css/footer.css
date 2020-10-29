@@ -8,14 +8,40 @@
 footer{
     width: 100%;
     height: auto;
-    background-color: yellow;
-    font-size: 20px;
-    color: var(--black);
-    text-shadow: var(--gray) 1px 0 10px; 
+    background-color: var(--yellow);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.footerBox{
+    padding: 0.5rem;
 }
 .footerList{
    margin: 20px 0px 0px 20px;
+   list-style: none;
+}
+.footerLink{
+   color: var(--red);
+   font-size: 1.2rem;
+   text-shadow: none;
+}
+.footerIcon{
+    font-size: 40px;
+    margin: 0%;
+    padding: 8px;
+    background-color: var(--black);
+    color: var(--blue);
+    border-radius: 50%;
+}
+.footerIcon:hover{
+    cursor: pointer;
+    background-color: var(--blue);
+    color: var(--yellow);
+}
+.footerTxt{
+    font-weight: 900;
+    color: var(--black);
+    padding: 1rem;
 }
