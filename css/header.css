@@ -26,6 +26,7 @@ header{
     padding: 2rem 8rem;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 li{
     list-style: none;

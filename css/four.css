@@ -1,9 +1,9 @@
 :root{
-    --gray: #2e2c2a;
+    /* --gray: #2e2c2a;
     --red: #bf2600;
     --yellow: #cdae00;
     --black: #080b11;
-    --blue: #24449b;
+    --blue: #24449b; */
     --grayLight: #585d66;
 }
 .four{
@@ -34,9 +34,19 @@
     margin: 0px 20px 20px;
 }
 .fourIcon{
+    color: var(--blue);
     width: 25px;
     height: auto;
 }
+.fourIcon:hover{
+    background-color: var(--blue);
+    color: var(--black);
+    border-radius: 50%;
+    padding: 4px;
+}
+/* .fourUser{
+
+} */
 .fourLink{
     text-decoration: none;
     margin: 0;
@@ -53,10 +63,6 @@
     text-shadow: var(--black) 1px 0 10px; 
     margin: 30px 20px 20px;
 }
-.fourMsj{
-    font-size: 20px;
-    text-shadow: var(--black) 1px 0 10px; 
-}
 .fourButton{
     text-decoration: none;
     background-color: var(--blue);
@@ -71,7 +77,18 @@
     background-color: var(--yellow);
     cursor: pointer;
 }
+.fourRow{
+    display: flex;
+    flex-direction: row;
+}
+.fourColumn{
+    display: flex;
+    flex-direction: column;
+}
 .fourInput{
+    border-radius: 3px;
+    border: none;
+    padding: 2px;
     display: block;
     width: 10vw;
     height: auto;
@@ -80,4 +97,8 @@
 .inputMsj{
     width: 15vw;
     height: 15vh;
+}
+.fourMsj{
+    font-size: 20px;
+    text-shadow: var(--black) 1px 0 10px; 
 }

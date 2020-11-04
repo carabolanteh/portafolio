@@ -1,8 +1,8 @@
-:root{
+/* :root{
     --gray: #2e2c2a;
     --yellow: #cdae00;
     --black: #080b11;
-}
+} */
 .quote{
     background-color: var(--yellow);
     width: 100%;
