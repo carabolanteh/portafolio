@@ -1,19 +1,14 @@
 :root{
-    /* --gray: #2e2c2a;
-    --red: #bf2600;
-    --yellow: #cdae00;
-    --black: #080b11;
-    --blue: #24449b; */
     --grayLight: #585d66;
 }
-.four{
+.four-container{
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.fourBox{
+.four-box{
     width: 80%;
     height: auto;
     background-color: var(--gray);
@@ -23,47 +18,91 @@
     display: flex;
     flex-direction: row;
 }
-.fourDiv{
+.four-div{
     width: 50%;
     height: auto;
     padding: 15px;
 }
-.fourList{
+/* ESTILO DE LA LISTA DE LINKS CON ICONOS */
+.four-ul{
     display: flex;
     flex-direction: column;
     margin: 0px 20px 20px;
 }
-.fourIcon{
-    color: var(--blue);
-    width: 25px;
-    height: auto;
+.four-li{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
 }
-.fourIcon:hover{
-    background-color: var(--blue);
-    color: var(--black);
-    border-radius: 50%;
-    padding: 4px;
+.four-link{
+    display: flex;
+    align-items: center;
 }
-/* .fourUser{
-
-} */
-.fourLink{
-    text-decoration: none;
-    margin: 0;
+.four-icon{
+    width: 28px;
+    height: 28px;
     padding: 0;
+    margin: 0;
+    background-color: var(--gray);
+    color: var(--blue);
+    border-radius: 50%;
+    padding: 3px;
 }
-.fourTxt{
+.four-user{
+    font-size: 16px;
+    font-weight: 200;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.four-link:hover :nth-child(1){
+    border-radius: 50%;
+    background-color: var(--blue);
+    color: var(--gray);
+}
+.four-link:hover :nth-child(2){
+    color: var(--blue);
+}
+/* ESTILOS DEL FORMULARIO */
+.four-row{
+    display: flex;
+    flex-direction: row;
+}
+.four-column{
+    display: flex;
+    flex-direction: column;
+}
+.four-input{
+    width: 15vw;
+    height: auto;
+    border-radius: 3px;
+    border: none;
+    padding: 2px;
+    display: block;
+    margin: 0px 20px 20px;
+    text-shadow: var(--black) 1px 0 10px; 
+ }
+.input-msj{
+    width: 15vw;
+    height: 15vh;
+}
+.four-txt{
     margin: 0px 20px 20px;
     color: var(--yellow);
+    font-weight: 200;
 }
-.fourTitle{
+.four-title{
     font-size: 50px;
     font-weight: 800;
     color: var(--red);
     text-shadow: var(--black) 1px 0 10px; 
     margin: 30px 20px 20px;
 }
-.fourButton{
+.four-msj{
+    font-size: 20px;
+    text-shadow: var(--black) 1px 0 10px; 
+    font-weight: 900;
+}
+.four-button{
     text-decoration: none;
     background-color: var(--blue);
     color: var(--black);
@@ -73,32 +112,7 @@
     padding: 5px;
     border: none;
 }
-.fourButton:hover{
+.four-button:hover{
     background-color: var(--yellow);
     cursor: pointer;
-}
-.fourRow{
-    display: flex;
-    flex-direction: row;
-}
-.fourColumn{
-    display: flex;
-    flex-direction: column;
-}
-.fourInput{
-    border-radius: 3px;
-    border: none;
-    padding: 2px;
-    display: block;
-    width: 10vw;
-    height: auto;
-    margin: 0px 20px 20px;
-}
-.inputMsj{
-    width: 15vw;
-    height: 15vh;
-}
-.fourMsj{
-    font-size: 20px;
-    text-shadow: var(--black) 1px 0 10px; 
 }

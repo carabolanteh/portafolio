@@ -1,15 +1,10 @@
-/* :root{
-    --gray: #2e2c2a;
-    --black: #080b11;
-    --blue: #24449b;
-} */
-.threeBoxes{
+.three-boxes{
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.threeDiv{
+.three-div{
     width: 32vw;
     height: auto;
     background-color: var(--blue);
@@ -19,25 +14,25 @@
     text-align: center;
     border-radius: 15px;
 }
-.threeDiv:hover{
+.three-div:hover{
     box-shadow: var(--black) 1px 0 10px; 
     cursor: pointer;
 }
-.threeImg{
+.three-img{
     margin-top: 30px;
     width: 30vw;
     height: auto;
     border-radius: 15px;
 }
-.threeLink{
+.three-link{
     text-decoration: none;
     color: var(--black);
 }
-.threeLink:hover{
+.three-link:hover{
     color: var(--gray);
 }
 @media (max-width: 900px){
-    .threeDiv{
+    .three-div{
         width: 40vw;
     }
 }

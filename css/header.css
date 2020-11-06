@@ -36,7 +36,7 @@ li{
 header nav li{
     margin: 0 15px;
 }
-.backColor{
+.back-color{
     background-color: var(--blue);
     color: var(--black);
     text-shadow: none; 
@@ -46,7 +46,7 @@ header nav li{
 a:hover{
     color: var(--black);
 }
-.backColor:hover{
+.back-color:hover{
     background-color: var(--yellow);
 }
 li a{

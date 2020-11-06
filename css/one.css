@@ -4,7 +4,7 @@
     --black: #080b11;
     --blue: #24449b;
 } */
-.one{
+.one-container{
     width: 100%;
     height: auto;
     color: honeydew;
@@ -14,18 +14,18 @@
     align-items: center;
     margin: 120px 0px 100px;
 }
-.oneBox{
+.one-box{
     width: 40vw;
     height: auto;
 }
-.oneFigure{
+.one-figure{
     margin-top: 80px;
 }
-.oneImg{
+.one-img{
     width: 40vw;
     border-radius: 50%;
 }
-.oneTxt{
+.one-txt{
     font-size: 20px;
     margin: 0px 5px 35px;
 }
@@ -52,14 +52,14 @@
     background-color: var(--yellow);
 }
 @media (max-width: 900px){
-    .one{
+    .one-container{
         flex-direction: column;
         text-align: center;
     }
-    .oneBox{
+    .one-box{
         width: 100vw;
     }
-    .oneImg{
+    .one-img{
         width: 80vw;
     }
   }
