@@ -37,10 +37,11 @@
 .four-link{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .four-icon{
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     padding: 0;
     margin: 0;
     background-color: var(--gray);
@@ -49,7 +50,7 @@
     padding: 3px;
 }
 .four-user{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 200;
     color: whitesmoke;
     margin-left: 10px;
@@ -58,6 +59,7 @@
     border-radius: 50%;
     background-color: var(--blue);
     color: var(--gray);
+    transition: .3s;
 }
 .four-link:hover :nth-child(2){
     color: var(--blue);
@@ -72,22 +74,23 @@
     flex-direction: column;
 }
 .four-input{
-    width: 15vw;
+    width: 93%;
     height: auto;
-    border-radius: 3px;
+    border-radius: 15px;
     border: none;
-    padding: 2px;
+    padding: 10px;
     display: block;
-    margin: 0px 20px 20px;
+    margin: 0px 10px 20px;
     text-shadow: var(--black) 1px 0 10px; 
  }
 .input-msj{
-    width: 15vw;
-    height: 15vh;
+    width: 95%;
+    height: auto;
 }
 .four-txt{
-    margin: 0px 20px 20px;
+    margin: 0px 10px 20px;
     color: var(--yellow);
+    font-size: 20px;
     font-weight: 200;
 }
 .four-title{
@@ -95,7 +98,7 @@
     font-weight: 800;
     color: var(--red);
     text-shadow: var(--black) 1px 0 10px; 
-    margin: 30px 20px 20px;
+    margin: 30px 10px 20px;
 }
 .four-msj{
     font-size: 20px;
@@ -114,5 +117,74 @@
 }
 .four-button:hover{
     background-color: var(--yellow);
+    transition: .3s;
     cursor: pointer;
+}
+
+@media (max-width: 900px){
+    .four-box{
+        background-color: var(--black);
+        box-shadow: none;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        flex-direction: column;
+    }
+    .four-div{
+        width: 100%;
+        height: auto;
+    }
+    .four-ul{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .four-divide{
+        width: 50%;
+        height: auto;
+    }
+    .four-txt{
+        width: 70%;
+    }
+
+    /* FORMULARIO */
+    .four-column{
+        width: 48%;
+        height: auto;
+    }
+    .four-row, .four-ex{
+        width: 100%;
+        height: auto;
+    }
+    .four-input{
+        width: 95%;
+        height: auto;
+    }
+    .four-button{
+        width: 100px;
+    }
+}
+@media (max-width: 560px){
+    /* CONTACTO */
+    .four-ul{
+        flex-direction: column;
+    }
+    .four-divide{
+        width: 100%;
+        height: auto;
+    }
+    .four-txt{
+        width: 90%;
+    }
+    /* FORMULARIO */
+    .four-row{
+        flex-direction: column;
+    }
+    .four-column{
+        width: 100%;
+    }
+    .four-button{
+        width: 100px;
+    }
 }

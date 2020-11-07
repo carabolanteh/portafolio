@@ -23,11 +23,6 @@
     flex-direction: column;
     justify-content: center;
 }
-.two-txt{
-    text-align: center;
-    width: 50vw;
-    height: auto;
-}
 .two-title{
     margin: 100px 0px 50px;
     color: var(--red);
@@ -35,15 +30,22 @@
     font-weight: 800;
     font-size: 50px;
 }
+.two-txt{
+    text-align: center;
+    width: 60%;
+    height: auto;
+}
 .two-boxes{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
 }
 .two-div{
-    width: 30vw;
+    width: 45%;
     height: auto;
     background-color: var(--blue);
     color: var(--black);
@@ -76,14 +78,21 @@
 .sky{
     color: var(--sky);
 }
-@media (max-width: 900px){
-    .two-div{
-        width: 40vw;
+@media (max-width: 500px){
+    .two-title{
+        font-size: 35px;
     }
     .two-txt{
-        width: 80vw;
+        text-align: center;
+        width: 80%;
+        height: auto;
     }
-    .know-box{
-        padding: 10px;
+}
+@media (max-width: 400px){
+    .two-div{
+        width: 100%;
+    }
+    .two-title{
+        font-size: 30px;
     }
 }

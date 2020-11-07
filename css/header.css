@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    list-style: none;
     box-sizing: border-box;
 }
 :root{
@@ -16,49 +18,94 @@ body{
     height: 100vh;
     font-family: 'Patua One', cursive;
 }
-header{
+.header-container{
+    background-color: var(--red);
     width: 100%;
     height: auto;
-    background-color: var(--red);
     box-shadow: 0px 0px 65px 0px var(--redDark);
-    display: flex;
-    justify-content: flex-end;
-    padding: 2rem 8rem;
     position: fixed;
     top: 0;
     z-index: 1000;
+    padding: 1rem 2rem;
 }
-li{
-    list-style: none;
-    font-size: 20px;
-    float: left;
+.header-ul{
+    float: right;
+    margin-right: 20px;
 }
-header nav li{
-    margin: 0 15px;
+.header-li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.header-a{
+    color: var(--yellow);
+    font-size: 25px;
+    font-weight: 800;
+    text-shadow: var(--gray) 1px 0 10px; 
+    padding: 7px 13px;
+    border-radius: 15px;
+    text-transform: uppercase;
 }
 .back-color{
     background-color: var(--blue);
     color: var(--black);
     text-shadow: none; 
-    border-radius: 15px;
-    padding: 5px;
 }
-a:hover{
+.header-a:hover{
     color: var(--black);
+    transition: .3s;
 }
 .back-color:hover{
     background-color: var(--yellow);
 }
-li a{
-    color: var(--yellow);
-    text-shadow: var(--gray) 1px 0 10px; 
-    text-decoration: none;
+.checkbtn{
+    font-size: 40px;
+    color: var(--red);
+    float: right;
+    line-height: 80px;
+    margin-right:  20px;
     cursor: pointer;
-    font-weight: 800;
-    font-size: 25px;
+    display: none;
 }
-@media (max-width: 900px){
-    header{
-        display: none;
+#check{
+    display: none;
+}
+@media (max-width: 950px){
+    .header-container{
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .header-a{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .header-ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--black);
+        top: 90px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .header-li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .header-a:hover{
+        color: var(--red);
+        transition: .3s;
+    }
+    .back-color:hover{
+        background-color: var(--yellow);
+        color: var(--black);
+    }
+    #check:checked ~ .header-ul{
+        left: 0;
     }
 }

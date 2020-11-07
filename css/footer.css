@@ -8,20 +8,28 @@ footer{
     align-items: center;
     text-align: center;
 }
-.footer-box{
+.footer-box,.footer-ghost{
     padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .footer-list{
    margin: 20px 0px 0px 20px;
-   list-style: none;
 }
 .footer-link{
    color: var(--red);
-   font-size: 1.2rem;
-   text-shadow: none;
+   font-size: 25px;
+   padding: 7px 13px;
+   font-weight: 800;
+}
+.footer-link:hover{
+    color: var(--black);
+    transition: .3s;
 }
 .footer-icon{
-    font-size: 40px;
+    font-size: 50px;
     margin: 0%;
     padding: 8px;
     background-color: var(--black);
@@ -32,9 +40,17 @@ footer{
     cursor: pointer;
     background-color: var(--blue);
     color: var(--yellow);
+    transition: .3s;
 }
 .footer-txt{
     font-weight: 900;
     color: var(--black);
+    margin-left: 20px;
     padding: 1rem;
+}
+
+@media (max-width: 700px){
+    .footer-ghost{
+        display: none;
+    }
 }

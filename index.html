@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/one.css">
@@ -18,12 +19,16 @@
     <link rel="icon" href="./img/logo-portafolio.jpeg">
     <!-- HEADER -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#section-one">HOLA</a></li>
-                <li><a href="#section-two">CONOCIMIENTOS</a></li>
-                <li><a href="#section-three">PROYECTOS</a></li>
-                <li><a href="#section-four" class="back-color">CONTACTO</a></li>
+        <nav class="header-container">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="header-ul">
+                <li class="header-li"><a href="#section-one" class="header-a">HOLA</a></li>
+                <li class="header-li"><a href="#section-two" class="header-a">CONOCIMIENTOS</a></li>
+                <li class="header-li"><a href="#section-three" class="header-a">PROYECTOS</a></li>
+                <li class="header-li"><a href="#section-four" class="back-color header-a">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
@@ -144,36 +149,40 @@
                         <p class="four-txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis doloremque cumque repudiandae delectus eius vero, assumenda placeat voluptatem ullam magni dolore laborum fuga nihil provident. Natus quo consequuntur reiciendis necessitatibus?</p>
                         <div class="four-box-list">
                             <ul class="four-ul">
-                                <li class="four-li">
-                                    <a href="#" class="four-link">
-                                        <span class="iconify four-icon" data-icon="carbon:logo-twitter" data-inline="false"></span>
-                                        <span class="four-user">@carabolanteh</span>
-                                    </a>
-                                </li>
-                                <li class="four-li">
-                                    <a href="#" class="four-link">
-                                        <span class="iconify four-icon" data-icon="brandico:github" data-inline="false"></span>
-                                        <span class="four-user">carabolanteh</span>
-                                    </a>
-                                </li>
-                                <li class="four-li">
-                                    <a href="#" class="four-link">
-                                        <span class="iconify four-icon" data-icon="fa-brands:linkedin-in" data-inline="false"></span>
-                                        <span class="four-user">HannahCarabolante</span>
-                                    </a>
-                                </li>
-                                <li class="four-li">
-                                    <a href="#" class="four-link four-mail">
-                                        <span class="iconify four-icon" data-icon="topcoat:email" data-inline="false"></span>
-                                        <span class="four-user">carabolanteh@gmail.com</span>
-                                    </a>
-                                </li>
+                                <div class="four-divide">
+                                    <li class="four-li">
+                                        <a href="#" class="four-link">
+                                            <span class="iconify four-icon" data-icon="carbon:logo-twitter" data-inline="false"></span>
+                                            <span class="four-user">@carabolanteh</span>
+                                        </a>
+                                    </li>
+                                    <li class="four-li">
+                                        <a href="#" class="four-link">
+                                            <span class="iconify four-icon" data-icon="brandico:github" data-inline="false"></span>
+                                            <span class="four-user">carabolanteh</span>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div class="four-divide">
+                                    <li class="four-li">
+                                        <a href="#" class="four-link">
+                                            <span class="iconify four-icon" data-icon="fa-brands:linkedin-in" data-inline="false"></span>
+                                            <span class="four-user">HannahCarabolante</span>
+                                        </a>
+                                    </li>
+                                    <li class="four-li">
+                                        <a href="#" class="four-link four-mail">
+                                            <span class="iconify four-icon" data-icon="topcoat:email" data-inline="false"></span>
+                                            <span class="four-user">carabolanteh@gmail.com</span>
+                                        </a>
+                                    </li>
+                                </div>
                             </ul>
                         </div>
                     </div>
                     <div class="four-div">
                         <h3 class="four-txt four-title">Escribeme</h3>
-                        <form class="four-form">
+                        <form>
                             <div class="four-row">
                                 <div class="four-column">
                                   <label for="username" class="four-txt four-msj">Nombre*</label>
@@ -184,7 +193,7 @@
                                     <input class="four-input" type="text" name="userlastname" id="userlastname" placeholder="p.j: Carabolante" required />
                                 </div>
                             </div>
-                            <div class="four-column">
+                            <div class="four-column four-ex">
                                 <label for="email" class="four-txt four-msj">Email*</label>
                                 <input class="four-input" type="email" name="email" id="email" placeholder="p.j: carabolanteh@gmail.com" required />
                                 <label for="msj" class="four-txt four-msj">Mensaje*</label>
@@ -197,23 +206,23 @@
             </section>
             <!-- FOOTER -->
             <footer class="footer">
-                <div class="footer-box">
-                    <ul>
+                <div>
+                    <ul class="footer-ghost">
                         <li class="footer-list"><a href="#section-one" class="footer-link">HOLA</a></li>
                         <li class="footer-list"><a href="#section-two" class="footer-link">CONOCIMIENTOS</a></li>
                         <li class="footer-list"><a href="#section-three" class="footer-link">PROYECTOS</a></li>
                         <li class="footer-list"><a href="#section-four" class="footer-link">CONTACTO</a></li>
                     </ul>
                 </div>
-                <div class="footer-box">
-                    <ul>
+                <div>
+                    <ul class="footer-box">
                         <li class="footer-list"><a href="https://twitter.com/"><i><span class="iconify footer-icon" data-icon="carbon:logo-twitter" data-inline="false"></span></i></a></li>
                         <li class="footer-list"><a href="https://twitter.com/"><i><span class="iconify footer-icon" data-icon="fe:github-alt" data-inline="false"></span></i></a></li>
                         <li class="footer-list"><a href="https://twitter.com/"><i><span class="iconify footer-icon" data-icon="bx:bxl-linkedin" data-inline="false"></span></i></a></li>
                         <li class="footer-list"><a href="https://twitter.com/"><i><span class="iconify footer-icon" data-icon="topcoat:email" data-inline="false"></span></i></a></li>
                     </ul>
+                    <p class="footer-txt">Hecho con ❤ por Hannah Carabolante</p>
                 </div>
-                <p class="footer-txt">Hecho con ❤ por Hannah Carabolante</p>
             </footer>
         </article>
     </main>
