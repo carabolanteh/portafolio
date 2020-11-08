@@ -1,4 +1,4 @@
-.one-container{
+.hola-container{
     width: 100%;
     height: auto;
     color: honeydew;
@@ -8,18 +8,18 @@
     align-items: center;
     margin: 120px 0px 100px;
 }
-.one-box{
+.hola-box{
     width: 40vw;
     height: auto;
 }
-.one-figure{
+.hola-figure{
     margin-top: 80px;
 }
-.one-img{
+.hola-img{
     width: 40vw;
     border-radius: 50%;
 }
-.one-txt{
+.hola-txt{
     font-size: 20px;
     margin: 0px 5px 35px;
 }
@@ -47,14 +47,14 @@
     transition: .3s;
 }
 @media (max-width: 900px){
-    .one-container{
+    .hola-container{
         flex-direction: column;
         text-align: center;
     }
-    .one-box{
+    .hola-box{
         width: 100vw;
     }
-    .one-img{
+    .hola-img{
         width: 80vw;
     }
   }

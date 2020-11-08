@@ -63,7 +63,7 @@ body{
     color: var(--red);
     float: right;
     line-height: 80px;
-    margin-right:  20px;
+    margin-right:  8px;
     cursor: pointer;
     display: none;
 }
@@ -72,8 +72,9 @@ body{
 }
 @media (max-width: 950px){
     .header-container{
-        background-color: transparent;
+        background-color: var(--black);
         box-shadow: none;
+        padding: 0rem 1rem;
     }
     .header-a{
         font-size: 20px;
@@ -87,7 +88,7 @@ body{
         width: 100%;
         height: 100vh;
         background-color: var(--black);
-        top: 90px;
+        top: 80px;
         left: -100%;
         text-align: center;
         transition: all .5s;

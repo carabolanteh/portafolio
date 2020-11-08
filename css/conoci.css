@@ -3,7 +3,7 @@
     --sky: rgb(135, 206, 235);
     --orange: rgb(255, 69, 0);
 }
-.two-container{
+.conoci-container{
     width: 100%;
     background-color: var(--gray);
     border-radius: 15px;
@@ -14,7 +14,7 @@
     flex-direction: column;
     padding-bottom: 100px;
 }
-.two-box{
+.conoci-box{
     width: 100%;
     height: auto;
     margin-bottom: 50px;
@@ -23,19 +23,19 @@
     flex-direction: column;
     justify-content: center;
 }
-.two-title{
+.conoci-title{
     margin: 100px 0px 50px;
     color: var(--red);
     text-shadow: #080b11 1px 0 10px; 
     font-weight: 800;
     font-size: 50px;
 }
-.two-txt{
+.conoci-txt{
     text-align: center;
     width: 60%;
     height: auto;
 }
-.two-boxes{
+.conoci-boxes{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -44,7 +44,7 @@
     width: 100%;
     height: auto;
 }
-.two-div{
+.conoci-div{
     width: 45%;
     height: auto;
     background-color: var(--blue);
@@ -54,7 +54,7 @@
     text-align: center;
     border-radius: 15px;
 }
-.two-div:hover{
+.conoci-div:hover{
     box-shadow: var(--black) 1px 0 10px; 
     color: var(--gray);
     cursor: pointer;
@@ -64,7 +64,7 @@
     font-size: 90px;
     background-color: transparent;
 }
-.two-name{
+.conoci-name{
     font-size: x-large;
     font-weight: 900;
     padding: 30px 30px;
@@ -79,20 +79,20 @@
     color: var(--sky);
 }
 @media (max-width: 500px){
-    .two-title{
+    .conoci-title{
         font-size: 35px;
     }
-    .two-txt{
+    .conoci-txt{
         text-align: center;
         width: 80%;
         height: auto;
     }
 }
 @media (max-width: 400px){
-    .two-div{
+    .conoci-div{
         width: 100%;
     }
-    .two-title{
+    .conoci-title{
         font-size: 30px;
     }
 }
