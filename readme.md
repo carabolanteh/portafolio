@@ -7,7 +7,7 @@
 
 ***
 
-### Si quieres ver como me quedo puedes darle click a este enlace [enlace](carabolanteh.github.io/portafolio/) o puedes hacerlo desde [acá]().
+### Si quieres ver como me quedo puedes darle click a este enlace [enlace](carabolanteh.github.io/portafolio/) o puedes hacerlo desde [acá](https://trusting-johnson-ac35a4.netlify.app).
 
 <br>
 
