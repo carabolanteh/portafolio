@@ -78,6 +78,10 @@
 .sky{
     color: var(--sky);
 }
+.conoci-ada{
+    text-decoration: none;
+    color: var(--red);
+}
 @media (max-width: 500px){
     .conoci-title{
         font-size: 35px;
