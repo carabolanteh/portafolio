@@ -68,24 +68,23 @@
 .contacto-row{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 .contacto-column{
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+.contacto-ex{
+    width: 100%;
 }
 .contacto-input{
-    width: 93%;
-    height: auto;
     border-radius: 15px;
     border: none;
     padding: 10px;
     display: block;
     margin: 0px 10px 20px;
     text-shadow: var(--black) 1px 0 10px; 
- }
-.input-msj{
-    width: 95%;
-    height: auto;
 }
 .contacto-txt{
     margin: 0px 10px 20px;
@@ -112,7 +111,7 @@
     font-size: 25px;
     font-weight: 800;
     border-radius: 15px;
-    padding: 5px;
+    padding: 8px;
     border: none;
 }
 .contacto-button:hover{

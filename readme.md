@@ -1,20 +1,20 @@
 ## Portafolio de Hannah Carabolante
 
-#### Este proyecto esta realizado para mostrar como sería un portafolio para la entrega final del modulo-01 de Ada.
+#### Este proyecto es un portafolio realizado para su evaluación a partir de lo aprendido en el primer módulo de la sexta generación de FRONTEND de [ADA](https://adaitw.org/).
 
 <br>
 
 
 ***
 
-### Si quieres ver como me quedo puedes darle click a este [enlace](https://carabolanteh.github.io/portafolio/) o puedes hacerlo desde [acá](https://trusting-johnson-ac35a4.netlify.app).
+### Si quiere echarle un vistazo puede darle click a este [enlace](https://carabolanteh.github.io/portafolio/) o tambien puede hacerlo desde [acá](https://trusting-johnson-ac35a4.netlify.app).
 
 <br>
 
 
 ***
 
-### Si quieres tener el código en tu computadora, deberás de seguir estos pasos en tu terminal.
+### Si quiere tener el código en su computadora, deberá de seguir estos pasos en su terminal.
 
 - Ir al [repositorio](https://github.com/carabolanteh/portafolio).
 - Darle click al botón de forkear.
@@ -29,9 +29,8 @@
 
 ***
 
-### A continuación dejo una imagen ilustrativa de como se debería ver el portafolio en tu navegador.
+### A continuación, le dejo una imagen ilustrativa de como debería de verse el portafolio en su navegador.
 
-<br>
 <br>
 
 
@@ -43,10 +42,10 @@
 
 <br>
 
-### Este portafolio fue desarrollado para el primer proyecto de la 6ta generación de ADA.
+### Este portafolio no sería lo que es sin la ayuda de [Jonh] y mis compañeras de curso. No me queda más que agradecerles. 🥰
 
 <br>
 
 ***
 
-#### De Hannah, con mucho 🖤 para ustedes!
+#### De Hannah, con mucho ❤ ¡para ustedes!
