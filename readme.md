@@ -42,7 +42,7 @@
 
 <br>
 
-### Este portafolio no sería lo que es sin la ayuda de [Jonh] y mis compañeras de curso. No me queda más que agradecerles. 🥰
+### Este portafolio no sería lo que es sin la ayuda de [Jonh](https://github.com/Jonhks) y mis compañeras de curso. No me queda más que agradecerles. 🥰
 
 <br>
 
