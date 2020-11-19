@@ -7,10 +7,10 @@
 }
 :root{
     --gray: #2e2c2a;
-    --red: #bf2600;
-    --yellow: #cdae00;
-    --black: #080b11;
-    --blue: #24449b;
+    --red: #AE2300;
+    --yellow: #FBD600;
+    --black: #000000;
+    --blue: #4A71D5;
     --redDark:  rgba(107, 14, 0, 0.555);
 }
 body{
@@ -54,6 +54,9 @@ body{
 .header-a:hover{
     color: var(--black);
     transition: .3s;
+}
+.header-a:focus{
+    box-shadow: 0px 0px 9px 3px var(--redDark);
 }
 .back-color:hover{
     background-color: var(--yellow);

@@ -7,8 +7,8 @@
     <meta name="description" content="Este portafolio es para la prueba de modulo1 de Ada" />
     <meta name="keywords" content="Portafolio, Ada, Developer, Front End, Programación" />
 
-    <meta property="og:title" content="Portafolio" />
-    <meta property="og:description" content="Este portafolio es para la prueba de modulo1 de Ada" />
+    <meta property="og:title" content="Portafolio." />
+    <meta property="og:description" content="Este es un proyecto desarrollado para la evaluación del modulo-1 de Ada" />
     <meta property="og:type" content="article" />
     <meta property="og:site name" content="portafolio-ada" />
     <meta property="og:url" content="https://carabolanteh.github.io/portafolio/" />
@@ -31,16 +31,24 @@
     <link rel="icon" href="./img/logo-portafolio.jpeg">
     <!-- HEADER -->
     <header>
-        <nav class="header-container">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
+        <nav class="header-container" aria-label="Menú.">
+            <input type="checkbox" id="check" aria-hidden="true">
+            <label for="check" class="checkbtn" aria-label="Menú">
+                <i class="fas fa-bars" aria-hidden="true"></i>
             </label>
-            <ul class="header-ul">
-                <li class="header-li"><a href="#section-hola" class="header-a">HOLA</a></li>
-                <li class="header-li"><a href="#section-conoci" class="header-a">CONOCIMIENTOS</a></li>
-                <li class="header-li"><a href="#section-proyecto" class="header-a">PROYECTOS</a></li>
-                <li class="header-li"><a href="#section-contacto" class="back-color header-a">CONTACTO</a></li>
+            <ul class="header-ul" aria-label="Lista del menú">
+                <li class="header-li" aria-label="Sección HOLA">
+                    <a href="#section-hola" class="header-a" aria-hidden="true">HOLA</a>
+                </li>
+                <li class="header-li" aria-label="Sección CONOCIMIENTOS">
+                    <a href="#section-conoci" class="header-a" aria-hidden="true">CONOCIMIENTOS</a>
+                </li>
+                <li class="header-li" aria-label="Sección PROYECTOS">
+                    <a href="#section-proyecto" class="header-a" aria-hidden="true">PROYECTOS</a>
+                </li>
+                <li class="header-li" aria-label="Sección CONTACTO">
+                    <a href="#section-contacto" class="back-color header-a" aria-hidden="true">CONTACTO</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -48,105 +56,104 @@
         <article>
         <!-- SECTION : HOLA -->
         <a name="section-hola" id="section-hola"></a>
-            <section class="hola-container">
-                <section class="hola-box">
-                    <p class="hola-txt red">¡Hola! Soy</p>
-                    <p class="hola-txt yellow">Hannah Carabolante</p>
-                    <p class="hola-txt">Desarrolladora, artista, estudiante.</p>
+            <section class="hola-container" aria-label="Se encuentra en la sección de HOLA">
+                <section class="hola-box" aria-label="¡Hola! Soy Hannah Cabolante. Desarrolladora, artista, estudiante.">
+                    <p class="hola-txt red" aria-hidden="true">¡Hola! Soy</p>
+                    <p class="hola-txt yellow" aria-hidden="true">Hannah Carabolante</p>
+                    <p class="hola-txt" aria-hidden="true">Desarrolladora, artista, estudiante.</p>
                     <a href="#section-proyecto" class="hola-txt button">LO QUE HAGO</a>
                 </section>
-                <figure class="hola-figure"> 
-                    <img src="./img/logo-portafolio.jpeg" alt="icon" class="hola-img">
+                <figure class="hola-figure" aria-label="Imágen de una mujer con una computadora."> 
+                    <img src="./img/logo-portafolio.jpeg" alt="icon" class="hola-img" aria-hidden="true">
                 </figure>
             </section>
         <!-- SECTION : CONOCIMIENTOS -->
         <a name="section-conoci" id="section-conoci"></a>
-            <section class="conoci-container">
-                <section class="conoci-box">
-                    <h1 class="conoci-txt conoci-title">Mis conocimientos</h1>
-                    <p class="conoci-txt">A continuación puede ver los diferentes tipos de habilidades que fui adquiriendo a lo largo del curso con <a href="https://adaitw.org/" class="conoci-ada" target="_blank">ADA</a>.</p>
-                    
+            <section class="conoci-container" aria-label="Se encuentra en la sección de CONOCIMIENTOS">
+                <section class="conoci-box" aria-label="Mis conocimientos">
+                    <h1 class="conoci-txt conoci-title" aria-hidden="true">Mis conocimientos</h1>
+                    <p class="conoci-txt">A continuación puede ver los diferentes tipos de habilidades que fui adquiriendo a lo largo del curso con <a href="https://adaitw.org/" class="conoci-ada" target="_blank" aria-label="Enlace a la pagina de ADA">ADA</a>.</p>
                 </section>
-                <section class="conoci-boxes">
-                    <div class="conoci-div">
-                        <span class="iconify orange" data-icon="fa:html5" data-inline="false"></span>
-                        <p class="conoci-name">HTML 5</p>
+                <section class="conoci-boxes" aria-label="Lista de conocimientos.">
+                    <div class="conoci-div" aria-label="HTML5">
+                        <span class="iconify orange" data-icon="fa:html5" data-inline="false" aria-hidden="true"></span>
+                        <p class="conoci-name" aria-hidden="true">HTML 5</p>
                     </div>
-                    <div class="conoci-div">
-                        <span class="iconify blue" data-icon="simple-icons:css3" data-inline="false"></span>
-                        <p class="conoci-name">CSS</p> 
+                    <div class="conoci-div" aria-label="CSS3">
+                        <span class="iconify blue" data-icon="simple-icons:css3" data-inline="false" aria-hidden="true"></span>
+                        <p class="conoci-name" aria-hidden="true">CSS</p> 
                     </div>
-                    <div class="conoci-div">
-                        <span class="iconify pink" data-icon="logos:sass" data-inline="false"></span>
-                        <p class="conoci-name">SASS</p>
+                    <div class="conoci-div" aria-label="SASS">
+                        <span class="iconify pink" data-icon="logos:sass" data-inline="false" aria-hidden="true"></span>
+                        <p class="conoci-name" aria-hidden="true">SASS</p>
                     </div>
-                    <div class="conoci-div">
-                        <span class="iconify yellow" data-icon="cib:javascript" data-inline="false"></span>
-                        <p class="conoci-name">JavaScript</p>
+                    <div class="conoci-div" aria-label="JavaScript">
+                        <span class="iconify yellow" data-icon="cib:javascript" data-inline="false" aria-hidden="true"></span>
+                        <p class="conoci-name" aria-hidden="true">JavaScript</p>
                     </div>
-                    <div class="conoci-div">
-                        <span class="iconify sky" data-icon="fa-brands:react" data-inline="false"></span>
-                        <p class="conoci-name">REACT</p>
+                    <div class="conoci-div" aria-label="REACT">
+                        <span class="iconify sky" data-icon="fa-brands:react" data-inline="false" aria-hidden="true"></span>
+                        <p class="conoci-name" aria-hidden="true">REACT</p>
                     </div>
-                    <div class="conoci-div">
-                        <span class="iconify orange" data-icon="fa-brands:git-alt" data-inline="false"></span>
-                        <p class="conoci-name">GIT</p>
+                    <div class="conoci-div" aria-label="GIT">
+                        <span class="iconify orange" data-icon="fa-brands:git-alt" data-inline="false" aria-hidden="true"></span>
+                        <p class="conoci-name" aria-hidden="true">GIT</p>
                     </div>
                 </section>
             </section>
         <!-- SECTION : QUOTE -->
-            <section class="quote-container">
-                <span class="iconify quote-icon" data-icon="bi:chat-quote-fill" data-inline="false"></span>
+            <section class="quote-container" aria-label="Cita">
+                <span class="iconify quote-icon" data-icon="bi:chat-quote-fill" data-inline="false" aria-hidden="true"></span>
                 <p class="quote-txt">Nothing is impossible, the word itself says "I'm possible"!</p>
                 <p class="quote-txt quote-name">Audrey Hepburn</p>
             </section>
         <!-- SECTION : PROYECTOS -->
         <a name="section-proyecto" id="section-proyecto"></a>
             <!-- PARA RECICLAR ESTILOS USO LAS ETIQUETAS DE LA SECCION CONOCIMIENTOS "conoci.css" -->
-            <section class="conoci-container">
-                <section class="conoci-box">
-                    <h1 class="conoci-txt conoci-title">Mis Proyectos</h1>
+            <section class="conoci-container" aria-label="Se encuentra en la sección de PROYECTOS">
+                <section class="conoci-box" aria-label="Mis proyectos">
+                    <h1 class="conoci-txt conoci-title" aria-hidden="true">Mis Proyectos</h1>
                     <p class="conoci-txt">En base a los conocimientos obtenidos, pude realizar diferentes tipos de proyectos. Aquí alguno de ellos.</p>
                 </section>
-                <section class="proyecto-boxes">
-                    <figure class="proyecto-div">
-                        <a href="./index.html" class="proyecto-link">
+                <section class="proyecto-boxes" aria-label="Lista de proyectos.">
+                    <figure class="proyecto-div" aria-label="Portafolio">
+                        <a href="./index.html" class="proyecto-link" aria-hidden="true">
                             <img src="./img/portafolio-cara.jpg" alt="screenshot del portafolio" class="proyecto-img">
                             <p class="conoci-name">Portafolio</p>
                         </a>    
                     </figure>
-                    <figure class="proyecto-div">
-                        <a href="#" class="proyecto-link">
+                    <figure class="proyecto-div" aria-label="Generador de memes">
+                        <a href="#" class="proyecto-link" aria-hidden="true">
                             <img src="./img/portafolio-cara.jpg" alt="screenshot del portafolio" class="proyecto-img">
                             <p class="conoci-name">Generador de memes</p>
                         </a>
                     </figure>
-                    <figure class="proyecto-div">
-                        <a href="#" class="proyecto-link">
+                    <figure class="proyecto-div" aria-label="Match 3">
+                        <a href="#" class="proyecto-link" aria-hidden="true">
                             <img src="./img/portafolio-cara.jpg" alt="screenshot del portafolio" class="proyecto-img">
                             <p class="conoci-name">Match 3</p>
                         </a>
                     </figure>
-                    <figure class="proyecto-div">
-                        <a href="#" class="proyecto-link">
+                    <figure class="proyecto-div" aria-label="Controlador de gastos">
+                        <a href="#" class="proyecto-link" aria-hidden="true">
                             <img src="./img/portafolio-cara.jpg" alt="screenshot del portafolio" class="proyecto-img">
                             <p class="conoci-name">Controlador de gastos</p>
                         </a>
                     </figure>
-                    <figure class="proyecto-div">
-                        <a href="#" class="proyecto-link">
+                    <figure class="proyecto-div" aria-label="Administrador de reuniones">
+                        <a href="#" class="proyecto-link" aria-hidden="true">
                             <img src="./img/portafolio-cara.jpg" alt="screenshot del portafolio" class="proyecto-img">
                             <p class="conoci-name">Administrador de reuniones</p>
                         </a>
                     </figure>
-                    <figure class="proyecto-div">
-                        <a href="#" class="proyecto-link">
+                    <figure class="proyecto-div" aria-label="Todo app">
+                        <a href="#" class="proyecto-link" aria-hidden="true">
                             <img src="./img/portafolio-cara.jpg" alt="screenshot del portafolio" class="proyecto-img">
                             <p class="conoci-name">Todo app</p>
                         </a>
                     </figure>
-                    <figure class="proyecto-div">
-                        <a href="#" class="proyecto-link">
+                    <figure class="proyecto-div" aria-label="Buscador de películas">
+                        <a href="#" class="proyecto-link" aria-hidden="true">
                             <img src="./img/portafolio-cara.jpg" alt="screenshot del portafolio" class="proyecto-img">
                             <p class="conoci-name">Buscador de películas</p>
                         </a>
@@ -155,38 +162,38 @@
             </section>
         <!-- SECTION : CONTACTO -->
         <a name="section-contacto" id="section-contacto"></a>
-            <section class="contacto-container">
-                <section class="contacto-box">
-                    <div class="contacto-div">
-                        <h3 class="contacto-txt contacto-title">Contactame</h3>
+            <section class="contacto-container" aria-label="Se encuentra en la sección de CONTACTO">
+                <section class="contacto-box" aria-label="Opciones de contacto">
+                    <div class="contacto-div" aria-label="Contactame por redes sociales.">
+                        <h3 class="contacto-txt contacto-title" aria-hidden="true">Contactame</h3>
                         <p class="contacto-txt">Si esta interesado en mi trabajo, tiene alguna consulta o solo quiere dejar un mensaje, puede contactarme por cualquiera de las redes sociales que figuran abajo o bien rellenar el formulario que se encuentra a la derecha.</p>
-                        <div class="contacto-box-list">
+                        <div class="contacto-box-list" aria-label="Lista de iconos de contacto.">
                             <ul class="contacto-ul">
                                 <div class="contacto-divide">
                                     <li class="contacto-li">
-                                        <a href="https://twitter.com/_carabolanteh" class="contacto-link" target="_blank">
-                                            <span class="iconify contacto-icon" data-icon="carbon:logo-twitter" data-inline="false"></span>
-                                            <span class="contacto-user">@_carabolanteh</span>
+                                        <a href="https://twitter.com/_carabolanteh" class="contacto-link" target="_blank" aria-label="Encontrame en Twitter como @_carabolanteh">
+                                            <span class="iconify contacto-icon" data-icon="carbon:logo-twitter" data-inline="false" aria-hidden="true"></span>
+                                            <span class="contacto-user" aria-hidden="true">@_carabolanteh</span>
                                         </a>
                                     </li>
                                     <li class="contacto-li">
-                                        <a href="https://github.com/carabolanteh" class="contacto-link" target="_blank">
-                                            <span class="iconify contacto-icon" data-icon="brandico:github" data-inline="false"></span>
-                                            <span class="contacto-user">carabolanteh</span>
+                                        <a href="https://github.com/carabolanteh" class="contacto-link" target="_blank" aria-label="Encontrame en Github como carabolanteh">
+                                            <span class="iconify contacto-icon" data-icon="brandico:github" data-inline="false" aria-hidden="true"></span>
+                                            <span class="contacto-user" aria-hidden="true">carabolanteh</span>
                                         </a>
                                     </li>
                                 </div>
                                 <div class="contacto-divide">
                                     <li class="contacto-li">
-                                        <a href="https://www.linkedin.com/in/hannah-carabolante-0ba7b81b8/" class="contacto-link" target="_blank">
-                                            <span class="iconify contacto-icon" data-icon="fa-brands:linkedin-in" data-inline="false"></span>
-                                            <span class="contacto-user">Hannah Carabolante</span>
+                                        <a href="https://www.linkedin.com/in/hannah-carabolante-0ba7b81b8/" class="contacto-link" target="_blank" aria-label="Encontrame en Linkedin como Hannah Carabolante">
+                                            <span class="iconify contacto-icon" data-icon="fa-brands:linkedin-in" data-inline="false" aria-hidden="true"></span>
+                                            <span class="contacto-user" aria-hidden="true">Hannah Carabolante</span>
                                         </a>
                                     </li>
                                     <li class="contacto-li">
-                                        <a href="https://myaccount.google.com/" class="contacto-link contacto-mail" target="_blank">
-                                            <span class="iconify contacto-icon" data-icon="topcoat:email" data-inline="false"></span>
-                                            <span class="contacto-user">carabolanteh@gmail.com</span>
+                                        <a href="https://myaccount.google.com/" class="contacto-link contacto-mail" target="_blank" aria-label="Encontrame en Gmail como carabolanteh@gmail.com">
+                                            <span class="iconify contacto-icon" data-icon="topcoat:email" data-inline="false" aria-hidden="true"></span>
+                                            <span class="contacto-user" aria-hidden="true">carabolanteh@gmail.com</span>
                                         </a>
                                     </li>
                                 </div>
@@ -194,8 +201,8 @@
                         </div>
                     </div>
                     <!-- FORMULARIO -->
-                    <div class="contacto-div">
-                        <h3 class="contacto-txt contacto-title">Escribeme</h3>
+                    <div class="contacto-div"  aria-label="Completa este formulario y haceme llegar tu mensaje">
+                        <h3 class="contacto-txt contacto-title" aria-hidden="true">Escribeme</h3>
                         <form>
                             <div class="contacto-row">
                                 <div class="contacto-column">
@@ -221,21 +228,37 @@
                 </section>
             </section>
             <!-- FOOTER -->
-            <footer class="footer">
-                <div>
-                    <ul class="footer-ghost">
+            <footer class="footer" aria-label="Se encuentra en el pie de la página">
+                <div >
+                    <ul class="footer-ghost" aria-label="Navegar por las secciones">
                         <li class="footer-list"><a href="#section-hola" class="footer-link">HOLA</a></li>
                         <li class="footer-list"><a href="#section-conoci" class="footer-link">CONOCIMIENTOS</a></li>
                         <li class="footer-list"><a href="#section-proyecto" class="footer-link">PROYECTOS</a></li>
                         <li class="footer-list"><a href="#section-contacto" class="footer-link">CONTACTO</a></li>
                     </ul>
                 </div>
-                <div>
-                    <ul class="footer-box">
-                        <li class="footer-list"><a href="https://twitter.com/_carabolanteh" target="_blank"><i><span class="iconify footer-icon" data-icon="carbon:logo-twitter" data-inline="false"></span></i></a></li>
-                        <li class="footer-list"><a href="https://github.com/carabolanteh" target="_blank"><i><span class="iconify footer-icon" data-icon="fe:github-alt" data-inline="false"></span></i></a></li>
-                        <li class="footer-list"><a href="https://www.linkedin.com/in/hannah-carabolante-0ba7b81b8/" target="_blank"><i><span class="iconify footer-icon" data-icon="bx:bxl-linkedin" data-inline="false"></span></i></a></li>
-                        <li class="footer-list"><a href="https://myaccount.google.com/" target="_blank"><i><span class="iconify footer-icon" data-icon="topcoat:email" data-inline="false"></span></i></a></li>
+                <div >
+                    <ul class="footer-box" aria-label="Lista de iconos de contacto">
+                        <li class="footer-list">
+                            <a href="https://twitter.com/_carabolanteh" target="_blank" aria-label="Encontrame en Twitter como @_carabolanteh">
+                                <i><span class="iconify footer-icon" data-icon="carbon:logo-twitter" data-inline="false" aria-hidden="true"></span></i>
+                            </a>
+                        </li>
+                        <li class="footer-list">
+                            <a href="https://github.com/carabolanteh" target="_blank" aria-label="Encontrame en Github como carabolanteh">
+                                <i><span class="iconify footer-icon" data-icon="fe:github-alt" data-inline="false" aria-hidden="true"></span></i>
+                            </a>
+                        </li>
+                        <li class="footer-list">
+                            <a href="https://www.linkedin.com/in/hannah-carabolante-0ba7b81b8/" target="_blank"  aria-label="Encontrame en Linkedin como Hannah Carabolante">
+                                <i><span class="iconify footer-icon" data-icon="bx:bxl-linkedin" data-inline="false" aria-hidden="true"></span></i>
+                            </a>
+                        </li>
+                        <li class="footer-list">
+                            <a href="https://myaccount.google.com/" target="_blank" aria-label="Encontrame en Gmail como carabolanteh@gmail.com">
+                                <i><span class="iconify footer-icon" data-icon="topcoat:email" data-inline="false" aria-hidden="true"></span></i>
+                            </a>
+                        </li>
                     </ul>
                     <p class="footer-txt">Hecho con ❤ por Hannah Carabolante</p>
                 </div>
